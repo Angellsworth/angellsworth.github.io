@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  header {
+    padding: 32px 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: auto;
+    /* I'm making the height much larger than it needs to be so that you can see the "jump" to the bottom of the page */
+    height: 2000px;
+  }
+  
+  p {
+    margin-top: 32px;
+  }
+  
+  /* COLORS */
+  .blue {
+    background-color: #81ADC8;
+  }
+  
+  .orange {
+    background-color: #CD4631;
+  }
+  
+  .contrast-text {
+    color: #F8F2DC;
+  }
+  
+  /* ALIGNMENT */
+  .center {
+    text-align: center;
+  }
+  
+  /* OTHER ELEMENTS */
+  .headline {
+    font-size: 3rem;
+    margin-bottom: 32px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer {
+    font-size: 2em;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  /* BUTTON STUFF*/
+  button {
+    /* This doesn't need to be set if it's already the default in your browser */
+    cursor: pointer;
+  }
+  
+  .bigger-button {
+    /* button styling can be very simple--here we just add a little padding on all sides */
+    padding: 8px; 
+  }
+  
+  
+  .fancy-button {
+    border: none;
+    text-decoration: none;
+    background-color: #0D1537;
+    color: #F8F2DC;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  /* Here I've done several hover effects.
+  Pick just 1-2 on a real project.  */
+  .fancy-button:hover {
+    color: white;
+    background-color: #232e5e;
+    text-decoration: underline;
+    transform: scale(1.05);
+    box-shadow: 0 0 3px white;
+  }

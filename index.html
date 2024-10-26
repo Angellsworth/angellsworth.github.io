@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- This link below is to link HTML to the styles.css file -->
+        <link rel="stylesheet" href="styles.css"/>
+        <!-- Title is for the tab of the page -->
+        <title>Teaching Portfolio</title>
+    </head>
+    
+
+    <body>
+         <!-- It's pretty common for the page's 'headline' and the navbar to be contained within a "header" element  -->
+    <header class="centerHeader">
+            <img src="assets/IMG_4760.jpeg" alt="Picture of Angela on her daughter's wedding day." width="300">
+            <div class="intro">
+                <h1>Hi, I'm Angela</h1>
+                    <p>Mother | Barber | Web Developer</p>
+            </div>
+     
+</header> 
+<!-- 'nav' is one of our "semantic" HTML elements. It tells computers, "Here's where to find the site navigation" -->
+        <!-- Navbar Section -->
+        <nav class="nav">
+
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact Me</a>
+        
+    </nav>
+    
+<!-- Insert div here -->
+<div id="greeting"></div>
+        
+
+        <main>
+            <section>
+                <h2>About Me</h2>
+                <h4>Rewriting <em>Life</em> with <em>Code</em></h4>
+                <p>Mom, Grandma, Barber, and now a Full-stack Web Developer in training (quite the career jump, I know). 
+                    After raising kids and cutting hair for 26 years, I decided it was time to trade my clippers for code, 
+                    even though tech is totally outside my comfort zone. But that’s where the fun (and the fear) happens, right?</p>
+                    <p>I’ve always been about creating connections—whether it was giving someone a fresh haircut or now, building websites. 
+                    Turns out, coding has a lot in common with life: it’s messy, full of bugs, and sometimes you just have to hit refresh. 
+                    When I’m not wrestling with lines of code, I’m navigating the wild, wonderful world of mothering adult kids, 
+                    which is a whole new adventure in itself.</p>
+                    <p>So, here I am—learning, laughing, and figuring it all out as I go.</p>
+            </section>
+            
+
+            <section>
+                <h2>Work Experience</h2>
+                <p>Below is a summary of my my journey from barbering to web development:</p>
+                    <ul>
+                        <li><strong>Barber & Cosmetology Instructor</strong>: Managed up to 60 clients per week, teaching and mentoring aspiring barbers and cosmetologists.</li>
+                        <li><strong>Manager</strong>: Handled schedules, client memberships, and team performance reviews, while leading a team of assistants.</li>
+                        <li><strong>Tech Instructor</strong>: Taught beginner coding classes for Tech Moms, focusing on HTML and web development.</li>
+                        <li><strong>Full-Stack Web Developer</strong>: Transitioning into full-stack development (MERN stack), applying problem-solving and creativity to build web solutions.</li>
+                    </ul>
+            </section>
+        </main>
+        <footer class="centerFooter">
+            <a class="linkedin" href="https://www.linkedin.com/in/angela-ellsworth/">LinkedIn</a>
+            <a href="mailto:angelaellsworth@outlook.com" target="_blank">Email Me</a>
+        </footer>
+
+        <!-- insert JavaScript "Script Tag" here -->
+    <script src="index.js"></script>
+
+    </body>
+    <nav class="navbar"> <!-- 1. Defines the navigation area -->
+        <ul> <!-- 2. Creates an unordered list (ul) for the menu items -->
+            <li><a href="links.html">Links</a></li>
+            <li><a href="skills.html">Skills</a></li> <!-- 3. Creates a menu item and link to "Skills" page -->
+            <li><a href="experience.html">Experience</a></li> <!-- 4. Creates a menu item and link to "Projects" page -->
+            <li><a href="contact.html">Contact Me</a></li> <!-- 5. Creates a menu item and link to "Contact Me" page -->
+        </ul> <!-- 6. Closes the unordered list -->
+    </nav> <!-- 7. Closes the navigation area --> 
+    
+</html>
